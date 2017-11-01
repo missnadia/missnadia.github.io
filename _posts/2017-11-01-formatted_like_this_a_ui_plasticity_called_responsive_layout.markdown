@@ -16,4 +16,4 @@ for further clarification, when you're shopping for clothes online or at a store
 
 when using HTML and CSS to design a website, there are properties you can set in your code to instruct various browsers to control the dimensions and scaling of the website or the contents therein. for example, the *max width* property can be set to 100% to an image to make it responsive and limit the image to to its original size (as opposed to the *width* property, which can scale the image to be larger than the original).
 
-with responsive layouts, we are able to create aesthetically pleasing websites as opposed to websites equivalent to size 8 fonts on a powerpoint presentation.
+with responsive layouts, we are able to create aesthetically pleasing websites as opposed to websites equivalent to size 8 fonts on a powerpoint presentation while you're sitting in the other end of the room.
