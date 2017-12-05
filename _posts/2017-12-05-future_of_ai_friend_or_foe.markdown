@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "future of AI: friend or foe?"
-date:       2017-12-05 19:37:39 +0000
+title:      "necessity of the AI code of hammurabi"
+date:       2017-12-05 14:37:40 -0500
 permalink:  future_of_ai_friend_or_foe
 ---
 
@@ -14,5 +14,5 @@ the focus rests primarily on the intent of AI, when in fact, it's the humans we 
 
 for example, the internet has provided us with the ability to access, exchange, and communicate a plethora of information. although such access allows us to use it to connect with family and friends, find research papers to aid in scientific research, or contribute to creative growth, however, there are those who use it to research how to murder someone or find child pornography. the discovery of electricity has allowed us to provide lighting to households, allowing uninterrupted productivity regardless of whether it's day or night, but at the same time has become a necessary utlity monopolized by companies driven by profit.
 
-on the contrary, the potential for AI to deliver benefits is unquestionable and the rate of advancement is very promising. for that reason, i think that it is important to begin considering placing safeguards to protect such promising technology from falling into the wrong hands. 
+on the contrary, the potential for AI to deliver benefits is unquestionable and the rate of advancement is very promising. for that reason, i think that it is important to begin considering placing safeguards to protect such promising technology from falling into the wrong hands. after all, we can't definitely say that human inventions are perfect. perhaps that one anomaly could set off a major disaster we carefully tried to prevent.
 
