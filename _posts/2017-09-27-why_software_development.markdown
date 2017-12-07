@@ -1,9 +1,12 @@
 ---
 layout: post
-title:  "why software development?"
-date:   2017-09-27 12:31:41 -0400
+title:      "why software development?"
+date:       2017-09-27 12:31:41 -0400
+permalink:  why_software_development
 ---
 
+
+let's go back to where it all began.
 
 video games have always been my source of comfort and escape.
 when i was 4, my father bought me a super nintendo, introducing me to mario, luigi, princess toadstool, and bowser, while my brother received the sega genesis during the time where sonic was king and ecco the dolphin dominated the sea. then throughout the years came the gameboys, n64, playstation 2, 3, and 4.
