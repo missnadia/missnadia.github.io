@@ -5,6 +5,7 @@ date:       2017-11-01 12:52:26 -0400
 permalink:  formatted_like_this_a_ui_plasticity_called_responsive_layout
 ---
 
+what is it?
 
 with the advancement of technology, we are now able to access information via various devices. i can access the same website through my phone as i am leaving for work and then continue where i left off from my desktop or through my laptop when i want to sit on the couch. the screen on my phone, my 27" monitor, and my 14" laptop all have varying screen sizes, but i am able to view the same website in the same format as it was designed and published.
 
