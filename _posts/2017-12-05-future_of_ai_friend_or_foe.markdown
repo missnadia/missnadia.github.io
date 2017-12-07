@@ -5,6 +5,7 @@ date:       2017-12-05 14:37:40 -0500
 permalink:  future_of_ai_friend_or_foe
 ---
 
+is the future doomed from killer robots or reckless humans?
 
 there was a [highly publicized debate between elon musk and mark zuckerberg](https://futurism.com/bill-gates-says-we-shouldnt-panic-about-artificial-intelligence/) on the topic of AI back in july. basically, elon musk thinks there is an existential risk for human civilization as opposed to mark zuckerberg who thinks that way of thought is irresponsible fear-mongering. other tech all-stars include bill gates, who is in the middle of the two polar ends, and michael dell, who is on team zuckerberg.
 
