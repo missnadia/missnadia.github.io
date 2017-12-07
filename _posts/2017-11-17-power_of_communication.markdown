@@ -1,10 +1,11 @@
 ---
 layout: post
-title:      "power of communication"
+title:      "the power of communication"
 date:       2017-11-17 15:06:18 -0500
 permalink:  power_of_communication
 ---
 
+it's more than just an indentation.
 
 communication is one of the most important components of human interaction. we use it daily to communicate our needs, address concerns, and express social cues. on the other hand, it is also one of the most complicated. [the same sentence can be interpreted differently depending on the style and instrument used](https://youtu.be/naleynXS7yo). for example, "WHAT ARE YOU DOING?" contrasts starkly with "what are you doing?" although the meaning or the content of the message is identical, the delivery of the message (how that message is conveyed) affects whether or not the intended outcome is produced.
 
