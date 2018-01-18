@@ -1,11 +1,11 @@
 ---
 layout: post
-title:      "common programming paradigms"
-date:       2018-01-18 21:16:59 +0000
+title:      "what is object oriented programming?"
+date:       2018-01-18 16:16:59 -0500
 permalink:  common_programming_paradigms
 ---
 
-what is object oriented programming?
+common programming paradigms - part 1
 
 every programming language is characterized by one or more programming paradigm. a programming paradigm is simply a way to classify a programming language based on its functionality and characteristics.
 
