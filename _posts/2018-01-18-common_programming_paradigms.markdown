@@ -19,17 +19,17 @@ because the data of the objects in OOP is predefined in its associated classes, 
 
 languages that are classified under this paradigm are:
 
-Python
-Ruby
-Scala
-Smalltalk
-Eiffel
-Emerald
-JADE
-Self
-Java
-C++
-C#
-Object Pascal
-VB.NET
+* Python
+* Ruby
+* Scala
+* Smalltalk
+* Eiffel
+* Emerald
+* JADE
+* Self
+* Java
+* C++
+* C#
+* Object Pascal
+* VB.NET
 
