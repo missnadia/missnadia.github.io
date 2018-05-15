@@ -5,6 +5,8 @@ date:       2018-02-05 17:33:11 -0500
 permalink:  what_is_scraping
 ---
 
+convenient tool with ambiguous legality
+
 i started learning about scraping from the flatiron curriculum a couple days ago and as a result started to research more about it to gain a futher understanding of it.
 
 what is it?
