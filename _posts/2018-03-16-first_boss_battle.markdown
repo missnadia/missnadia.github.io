@@ -5,7 +5,7 @@ date:       2018-03-16 15:00:00 -0400
 permalink:  first_boss_battle
 ---
 
-harder than fighting dark souls 3 iudex gundyr.
+harder than fighting iudex gundyr.
 
 i finally completed the CLI Gem project today after a long battle trying to debug the outputs of my scrapers. this project took a lot longer than i was supposed to take, but looking back now, i feel like i've gained more confidence in my ability to code. it's quite amazing looking at the end product. i've created something original (at least to my own knowledge and research) and from scratch.
 
