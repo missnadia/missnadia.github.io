@@ -42,7 +42,7 @@ further breaking down the path above:
 * and to access a single comment:
 `comment_path(id)` returns the `/comments/:id` path
 
-* combining a single course path and a single comment path require arguments to be passed through the path helpers to specify which comment of a specific course we are trying to access:
+* combining a single course path and a single comment path require arguments to be passed through the path helpers to specify which comment of a specific course i'm trying to access:
 `course_comment(course_id, comment_id)`
 
 
