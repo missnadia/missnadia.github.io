@@ -49,9 +49,11 @@ further breaking down the path above:
 in the comments view of my Rails project, i provided a link that would route to an edit page where i could edit the comment:
 * `_comment.html.erb`:
 
+```
 <%= comment.comment %><br><br>
   <%= link_to "Edit Comment", edit_course_comment_path(@course, comment), class: "button" %>
   <%= link_to "Delete Comment", course_comment_path(@course, comment), method: :delete, data: {confirm: "Are you sure you want to delete this comment?"}, class: "button" %>
+```
 	
 * the `edit_course_comment_path` route helper returns the path `/courses/:course_id/comments/:id/edit`
 
@@ -63,10 +65,12 @@ as previously mentioned, because i am trying to edit a specific comment of a spe
 * to satisfy the second requirement of `/comments/:id/`, i have to pass the `comment_id` of `comment.comment` as the second parameter. the link will then render the `:edit` view:
 
 * `edit.html.erb`:
+```
 <%= form_tag course_comment_path([@course, @comment]), method: "patch" do %>
   <%= text_field_tag :comment, @comment.comment %>
   <%= submit_tag "Edit Comment", class: "button" %>
-<% end %>`
+<% end %>
+```
 
 the first requirement of `course_comment_path([@course, @comment])` is satisfied by passing the same instance variable used in the `edit_course_comment_path` as the first parameter:
 * `@course = Course.find(params[:course_id])`
