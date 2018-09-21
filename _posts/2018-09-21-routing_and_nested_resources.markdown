@@ -13,7 +13,7 @@ while working on my Rails project, i received a routing error when trying to cre
 * course model `has_many :comments`
 * comment model `belongs_to :course`
 
-in the association described above, comment is the child object of course. to capture the `has_many`/`belongs_to` association in routing, i nested the comments resources within the courses resources by passing the comments resources through the `do...end` block of the courses resources in `/config/routes.rb`:
+in the association described above, comment is the child object of course. to capture the `has_many`/`belongs_to` association between the two models, i nested the comments resources within the courses resources by passing the comments resources through the `do...end` block of the courses resources in `/config/routes.rb`:
 
 `Rails,application.routes.draw do
   resources :courses do
