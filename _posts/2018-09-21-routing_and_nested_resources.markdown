@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "routing and nested resources"
-date:       2018-09-21 22:08:33 +0000
+date:       2018-09-21 18:08:33 -0400
 permalink:  routing_and_nested_resources
 ---
 
@@ -10,8 +10,8 @@ the bug that got away.
 
 while working on my Rails project, i received a routing error when trying to create and access the edit page for the comments nested resource. it turns out that i wasn't passing in the correct arguments.
 
-course model `has_many :comments`
-comment model `belongs_to :course`
+* course model `has_many :comments`
+* comment model `belongs_to :course`
 
 in the association described above, comment is considered the child object of course. to capture the `has_many`/`belongs_to` association in routing, i nested the comments resources within the courses resources by passing the comments resources through the `do...end` block of the courses resources in `/config/routes.rb`:
 
