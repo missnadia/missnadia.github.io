@@ -30,7 +30,7 @@ as a result, comments became a nested resource of a course:
 further breaking down the path above:
 
 * to access all courses, i can use the following routing helpers:
-`courses_path`
+`courses_path` 
 `courses_url`
 
 * to access a single course page, a course ID must be specified:
@@ -67,8 +67,8 @@ as previously mentioned, because i am trying to edit a specific comment of a spe
 * `edit.html.erb`:
 ```
 <%= form_tag course_comment_path([@course, @comment]), method: "patch" do %>
-  <%= text_field_tag :comment, @comment.comment %>
-  <%= submit_tag "Edit Comment", class: "button" %>
+   <%= text_field_tag :comment, @comment.comment %>
+   <%= submit_tag "Edit Comment", class: "button" %>
 <% end %>
 ```
 
