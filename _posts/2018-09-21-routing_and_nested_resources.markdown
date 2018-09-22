@@ -78,4 +78,4 @@ the first requirement of `course_comment_path([@course, @comment])` is satisfied
 
 and the second requirement is satisfied by passing the `@comment` instance variable set as `@comment = @course.comments.find(params[:id])` as the second parameter.
 
-after the requirements of both route helpers are met, my application can now successfuly link to the "Edit Comment" page and submit, update, and save `@comment.comment`.
+after the requirements of both route helpers are met, my application can now successfuly link to the "Edit Comment" page and edit, update, and save `@comment.comment`.
