@@ -55,7 +55,8 @@ in the comments view of my Rails project, i provided a link that would route to 
   <%= link_to "Delete Comment", course_comment_path(@course, comment), method: :delete, data: {confirm: "Are you sure you want to delete this comment?"}, class: "button" %>
 ```
 	
-* the `edit_course_comment_path` route helper returns the path `/courses/:course_id/comments/:id/edit`
+* the `edit_course_comment_path` route helper returns the path:
+`/courses/:course_id/comments/:id/edit`
 
 as previously mentioned, because i am trying to edit a specific comment of a specific course, i must provide two arguments (`course_id` and `comment_id`).
 
