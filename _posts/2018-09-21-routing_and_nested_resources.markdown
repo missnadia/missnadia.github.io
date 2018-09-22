@@ -74,7 +74,7 @@ as previously mentioned, because i am trying to edit a specific comment of a spe
 ```
 
 the first requirement of `course_comment_path([@course, @comment])` is satisfied by passing the same instance variable used in the `edit_course_comment_path` as the first parameter:
-* `@course = Course.find(params[:course_id])`
+`@course = Course.find(params[:course_id])`
 
 and the second requirement is satisfied by passing the `@comment` instance variable set as `@comment = @course.comments.find(params[:id])` as the second parameter.
 
