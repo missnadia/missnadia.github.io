@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "run-ins with the law"
-date:       2019-03-04 22:51:59 +0000
+date:       2019-03-04 17:52:02 -0500
 permalink:  run-ins_with_the_law
 ---
 
@@ -21,7 +21,7 @@ now that i fixed the issue i was having with ams, i thought that it would be smo
 
 WRONG.
 
-turns out adding a new feature to replace or enhance part of an application that already exists is far more difficult than adding the feature to the application's original design (at least in this case). due to the fact that every piece of code has a functioning purpose in the application, i had to really understand the implications of what would happen if i added/removed a snippet of code otherwise my code would break without me understanding why. oftentimes the challenge was in locating these snippets of code playing hide-and-seek in another file. sometimes these snippets would camoflauge between usable code. in addition, i had to make sure my CSS styles were revised to include/exclude new/old class and id selectors to make sure the styles were applying correctly.
+turns out adding a new feature to replace or enhance part of an application that already exists is far more difficult than adding the feature to the application's original design (at least in this case). due to the fact that every piece of code has a functioning purpose in the application, i had to really understand the implications of what would happen if i added/removed a snippet of code otherwise my code would break without me understanding why. oftentimes the challenge was in locating these snippets of code playing hide-and-seek in another file. sometimes these sneaky little elves would camoflauge between usable code. in addition, i had to make sure my CSS styles were revised to include/exclude new/old class and id selectors to make sure the styles were applying correctly.
 
 after refactoring and countlessly spamming my wombo combo--'binding.pry'/'debugger' and refresh page--to confirm that i'm using the correct selectors or that i was receiving the correct response from my AJAX requests, i still didn't learn my lesson.
 
