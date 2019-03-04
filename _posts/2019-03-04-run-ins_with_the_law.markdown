@@ -38,9 +38,9 @@ what's wrong????
 
 turns out that when i removed one of the models, i didn't revise the model associations correctly. i also forgot to remove some of the obsolete attributes from the database and from the controllers.
 
-...sigh.
+...sigh. to think, a couple of words were standing in the way of completion.
 
-a couple of words was standing in the way of completion. of course it's always something obvious.
+of course it's always something obvious that's not so obvious.
 
 if i had a penny for every time i underestimated the infamous laws of programming, i'd be rich.
 let's see how many laws i break in my React portfolio project.
