@@ -6,17 +6,17 @@ permalink:  some_javascript_terms
 ---
 
 
-review of hoisting, context, and closures.<br><br>
+review of hoisting, context, and closures.<br>
 
 ***what is hoisting?*** 
-<br><br>
+<br>
 hoisting is a verb that means to "raise or haul up."<br>
 when JavaScript compiles your code, all declarations (var, let, const, function, function*, class) are added to memory, allowing them to be accessible regardless of where the declaration is made.
-<br><br>
+<br>
 when using `var`:<br>
 if declared inside a function, it is hoisted (raised or hauled up) to the top of their local scope.<br>
 if declared outside of a function, it is hoisted to the top of their global scope.
-<br><br>
+<br>
 for example:
 ```
 var greeting = "hello";
@@ -45,15 +45,15 @@ greeting = "hello";
 // undefined
 ```
 
-when using `let` and `const`:
+when using `let` and `const`:<br>
 `let` is **not** initialized with `undefined` (unliked `var`) and will throw a Reference Error if called before a value is assigned and if it is called outside of the block, statement, or expression where it is used.<br><br>
 
 the value of `const` cannot be re-assigned because it creates a read-only reference to a value so it must be initialized at the same time it is declared.
-<br><br><br>
+<br><br>
 ***what is context?***
-<br><br>
+<br>
 context is the value of the keyword `this`. the value of `this` changes depending on how it is used. however, the method `bind( )`, `call( )`, or `apply( )` can be used to set the value of `this` regardless of how it is called.
-<br><br>
+<br>
 1. by itself or in an unbound function, `this` refers to the global object.
 ```
 method( )
@@ -81,7 +81,7 @@ $("div#firstElement").click(function( ) {
 // div#firstElement
 ```
 
-5. when using the methods `call( )` or `apply( )`, `this` can refer to any object passed in as the first parameter.
+5. when using the methods `call( )` or `apply( )`, `this` can refer to any object passed in as the first parameter.<br>
 `call(newObject, param1, ..., paramX)`
 * takes inline arguments
 
@@ -94,10 +94,9 @@ objectA.testContext.call( objectB )
 // Object B
 ```
 
-```
 `apply(newObject, [param1, ..., paramX])`
 * takes array of arguments
-```
+
 ```
 .apply( objectB )
 // Object B
