@@ -20,23 +20,23 @@ for example:
 
 `var greeting = "hello";`
 `console.log(greeting);`
-* `// "hello"`
+`// "hello"`
 
 `greeting = "hello";`
 `console.log(greeting);`
 `var greeting`
-* `// "hello"`
+`// "hello"`
 
 `var greeting` will be hoisted to the top, but the value will remain where it is. thus, although the code above will produce the intended value, the snippets below will not work because initializations are **not** hoisted:
 
 `console.log(greeting);`
 `var greeting = "hello";`
-* `// undefined`
+`// undefined`
 
 `var greeting`
 `console.log(greeting);`
 `greeting = "hello";`
-* `// undefined`
+`// undefined`
 
 when using `let` and `const`:
 `let` is **not** initialized with `undefined` (unliked `var`) and will throw a Reference Error if called before a value is assigned and if it is called outside of the block, statement, or expression where it is used.
@@ -47,50 +47,50 @@ the value of `const` cannot be re-assigned because it creates a read-only refere
 context is the value of the keyword `this`. the value of `this` changes depending on how it is used. however, the method `bind( )`, `call( )`, or `apply( )` can be used to set the value of `this` regardless of how it is called.
 
 1. by itself or in an unbound function, `this` refers to the global object.
-method( )
-* // window
+`method( )`
+*`// window`
 
 2. in a method, `this` refers to the owner object.
-person.shakeHand( )
-* // person
+`person.shakeHand( )`
+*` // person`
 
 3. in a `strict` function, it is undefined
 `'use strict';`
-`function method( ) { return this; }
-* // undefined
+`function method( ) { return this; }`
+`// undefined`
 
 4. in an event, `this` refers to the HTML element that received the event.
 `$("div#firstElement").click(function( ) {`
     `alert("Hello!");`
 `})`
-* // div#firstElement
+* `// div#firstElement`
 
-5. when using the methods call( ) or apply( ), `this` can refer to any object passed in as the first parameter.
-call(newObject, param1, ..., paramX)
+5. when using the methods `call( )` or `apply( )`, `this` can refer to any object passed in as the first parameter.
+`call(newObject, param1, ..., paramX)`
 * takes inline arguments
 
-`.call( objectA )
-// Object A
-objectA.testContext.call( objectB )
-// Object B`
+`.call( objectA )`
+* `// Object A`
+`objectA.testContext.call( objectB )`
+* `// Object B`
 
-apply(newObject, [param1, ..., paramX])
+`apply(newObject, [param1, ..., paramX])`
 * takes array of arguments
 
-`.apply( objectB )
-// Object B
-objectA.testContext.apply( window )
-// window (global)`
+`.apply( objectB )`
+* `// Object B`
+`objectA.testContext.apply( window )`
+* `// window (global)`
 		
 6. in arrow functions, `this` retains the value of its enclosing lexical context. in other words, it permanently binds to the `this` of its enclosing function because the arrow function does not have its own `this`.
 `function person( ){
   this.name = "Homer";
 
-  setName( ( ) => {
-    this.name = "Bart";
-  } );
-}`
-// `this` in the arrow function refers to `person`
+  `setName( ( ) => {`
+    `this.name = "Bart";`
+  `} );`
+`}`
+* `// this` in the arrow function refers to `person`
 
 ***what is closure?***
 a closure is created when an inner function has access to the parent scope, even after the parent function has closed. 
@@ -102,17 +102,17 @@ closures have 3 scope chains:
 
 to use a closure, simply define a function inside another function and return it to another function.
 
-`function outerFunction( ) {
-var a = 1;
+`function outerFunction( ) {`
+  `var a = 1;`
 
-    function innerFunction( ) {
-		    var b = 2;
-				console.log(a + b);
-		}
-   return innerFunction;
-}
-var newFunction = outerFunction( );
-newFunction( )`
+    `function innerFunction( ) {`
+		    `var b = 2;`
+				`console.log(a + b);`
+		`}`
+   `return innerFunction;`
+`}`
+`var newFunction = outerFunction( );`
+`newFunction( )`
 
 the `innerFunction` can calculate `a + b` using the value of `a = 1` even after `outerFunction` completes execution. closures are able to read and manipulate the variables of their parent functions.
 
