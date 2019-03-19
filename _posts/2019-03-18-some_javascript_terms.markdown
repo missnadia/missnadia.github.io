@@ -1,14 +1,14 @@
 ---
 layout: post
 title:      "some JavaScript terms"
-date:       2019-03-19 01:05:09 +0000
+date:       2019-03-18 21:05:10 -0400
 permalink:  some_javascript_terms
 ---
 
 
 review of hoisting, context, and closures.
 
-# *what is hoisting?*
+***what is hoisting?***
 hoisting is a verb that means to "raise or haul up."
 when JavaScript compiles your code, all declarations (var, let, const, function, function*, class) are added to memory, allowing them to be accessible regardless of where the declaration is made.
 
@@ -43,7 +43,7 @@ when using `let` and `const`:
 
 the value of `const` cannot be re-assigned because it creates a read-only reference to a value so it must be initialized at the same time it is declared.
 
-# *what is context?*
+***what is context?***
 context is the value of the keyword `this`. the value of `this` changes depending on how it is used. however, the method `bind( )`, `call( )`, or `apply( )` can be used to set the value of `this` regardless of how it is called.
 
 1. by itself or in an unbound function, `this` refers to the global object.
@@ -92,7 +92,7 @@ objectA.testContext.apply( window )
 }`
 // `this` in the arrow function refers to `person`
 
-# *what is closure?*
+***what is closure?***
 a closure is created when an inner function has access to the parent scope, even after the parent function has closed. 
 
 closures have 3 scope chains:
