@@ -20,23 +20,23 @@ for example:
 
 `var greeting = "hello";`
 `console.log(greeting);`
-`// "hello"`
+* `// "hello"`
 
 `greeting = "hello";`
 `console.log(greeting);`
 `var greeting`
-`// "hello"`
+* `// "hello"`
 
 `var greeting` will be hoisted to the top, but the value will remain where it is. thus, although the code above will produce the intended value, the snippets below will not work because initializations are **not** hoisted:
 
 `console.log(greeting);`
 `var greeting = "hello";`
-`// undefined`
+* `// undefined`
 
 `var greeting`
 `console.log(greeting);`
 `greeting = "hello";`
-`// undefined`
+* `// undefined`
 
 when using `let` and `const`:
 `let` is **not** initialized with `undefined` (unliked `var`) and will throw a Reference Error if called before a value is assigned and if it is called outside of the block, statement, or expression where it is used.
@@ -48,22 +48,22 @@ context is the value of the keyword `this`. the value of `this` changes dependin
 
 1. by itself or in an unbound function, `this` refers to the global object.
 method( )
-// window
+* // window
 
 2. in a method, `this` refers to the owner object.
 person.shakeHand( )
-// person
+* // person
 
 3. in a `strict` function, it is undefined
 `'use strict';`
 `function method( ) { return this; }
-// undefined
+* // undefined
 
 4. in an event, `this` refers to the HTML element that received the event.
 `$("div#firstElement").click(function( ) {`
     `alert("Hello!");`
-})`
-// div#firstElement
+`})`
+* // div#firstElement
 
 5. when using the methods call( ) or apply( ), `this` can refer to any object passed in as the first parameter.
 call(newObject, param1, ..., paramX)
