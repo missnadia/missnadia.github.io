@@ -12,7 +12,7 @@ review of hoisting, context, and closures.<br>
 <br>
 hoisting is a verb that means to "raise or haul up."<br>
 when JavaScript compiles your code, all declarations (var, let, const, function, function*, class) are added to memory, allowing them to be accessible regardless of where the declaration is made.
-<br>
+<br><br>
 when using `var`:<br>
 if declared inside a function, it is hoisted (raised or hauled up) to the top of their local scope.<br>
 if declared outside of a function, it is hoisted to the top of their global scope.
@@ -46,7 +46,7 @@ greeting = "hello";
 ```
 
 when using `let` and `const`:<br>
-`let` is **not** initialized with `undefined` (unliked `var`) and will throw a Reference Error if called before a value is assigned and if it is called outside of the block, statement, or expression where it is used.<br><br>
+`let` is **not** initialized with `undefined` (unliked `var`) and will throw a Reference Error if called before a value is assigned and if it is called outside of the block, statement, or expression where it is used.<br>
 
 the value of `const` cannot be re-assigned because it creates a read-only reference to a value so it must be initialized at the same time it is declared.
 <br><br>
