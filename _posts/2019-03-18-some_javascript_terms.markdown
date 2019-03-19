@@ -116,12 +116,12 @@ function person( ){
 <br>
 ***what is a closure?***
 <br>
-a closure is created when an inner function has access to the parent scope, even after the parent function has closed. 
+a closure is created when an inner function has access to the parent scope, even after the parent function has closed.<br> 
 closures have 3 scope chains:
 1. access to own scope
 2. access to parent function's variables
 3. access to global variables
-<br>
+
 to use a closure, simply define a function inside another function and return it to another function.
 
 ```
