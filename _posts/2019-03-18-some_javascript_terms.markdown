@@ -18,14 +18,18 @@ if declared outside of a function, it is hoisted to the top of their global scop
 
 for example:
 
-`var greeting = "hello";`
-`console.log(greeting);`
-`// "hello"`
+```
+var greeting = "hello";
+console.log(greeting);
+// "hello"
+````
 
-`greeting = "hello";`
-`console.log(greeting);`
-`var greeting`
-`// "hello"`
+```
+greeting = "hello";
+console.log(greeting);
+var greeting
+// "hello"
+```
 
 `var greeting` will be hoisted to the top, but the value will remain where it is. thus, although the code above will produce the intended value, the snippets below will not work because initializations are **not** hoisted:
 
