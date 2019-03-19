@@ -84,7 +84,6 @@ $("div#firstElement").click(function( ) {
 5. when using the methods `call( )` or `apply( )`, `this` can refer to any object passed in as the first parameter.<br>
 `call(newObject, param1, ..., paramX)`
 * takes inline arguments
-
 ```
 .call( objectA )
 // Object A
@@ -93,10 +92,8 @@ $("div#firstElement").click(function( ) {
 objectA.testContext.call( objectB )
 // Object B
 ```
-
 `apply(newObject, [param1, ..., paramX])`
 * takes array of arguments
-
 ```
 .apply( objectB )
 // Object B
@@ -105,9 +102,7 @@ objectA.testContext.call( objectB )
 objectA.testContext.apply( window )
 // window (global)
 ```
-		
 6. in arrow functions, `this` retains the value of its enclosing lexical context. in other words, it permanently binds to the `this` of its enclosing function because the arrow function does not have its own `this`.
-
 ```
 function person( ){
   this.name = "Homer";
@@ -119,7 +114,7 @@ function person( ){
 // this in the arrow function refers to person
 ```
 <br>
-***what is closure?***
+***what is a closure?***
 <br>
 a closure is created when an inner function has access to the parent scope, even after the parent function has closed. 
 closures have 3 scope chains:
