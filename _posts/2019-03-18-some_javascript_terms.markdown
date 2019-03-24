@@ -95,7 +95,7 @@ $("div#firstElement").click(function( ) {
 // Object B
 ```
 
-6. in arrow functions, `this` retains the value of its enclosing lexical context. in other words, it permanently binds to the `this` of its enclosing function because the arrow function does not have its own `this`.
+6. in arrow functions, `this` retains the value of its enclosing lexical context. in other words, it permanently binds to the `this` of its enclosing function because the arrow function does not have its own `this`. (using the example from MDN)
 
 ```
 function Person( ){
