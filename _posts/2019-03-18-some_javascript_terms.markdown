@@ -109,7 +109,6 @@ function Person( ){
 var p = new Person();
 // this in the arrow function refers to the Person Object
 ```
-
 <br>
 ***what is a closure?***
 <br>
