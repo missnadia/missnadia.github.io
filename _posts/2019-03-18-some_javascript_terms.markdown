@@ -46,7 +46,7 @@ greeting = "hello";
 ```
 
 when using `let` and `const`:<br>
-`let` is **not** initialized with `undefined` (unliked `var`) and will throw a Reference Error if called before a value is assigned and if it is called outside of the block, statement, or expression where it is used.<br>
+`let` is **not** initialized with `undefined` (unliked `var`) and will throw a `Reference Error` if called before a value is assigned and if it is called outside of the block, statement, or expression where it is used.<br>
 
 the value of `const` cannot be re-assigned because it creates a read-only reference to a value so it must be initialized at the same time it is declared.
 <br><br>
