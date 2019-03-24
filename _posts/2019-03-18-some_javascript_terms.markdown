@@ -11,7 +11,7 @@ review of hoisting, context, and closures.<br>
 ***what is hoisting?*** 
 <br>
 hoisting is a verb that means to "raise or haul up."<br>
-when JavaScript compiles your code, all declarations (var, let, const, function, function*, class) are added to memory, allowing them to be accessible regardless of where the declaration is made.
+when JavaScript compiles your code, all declarations (var, let, const, function, function*, class) are added to memory, allowing some declarations such as `var` to be accessible regardless of where the declaration is made.
 <br><br>
 when using `var`:<br>
 if declared inside a function, it is hoisted (raised or hauled up) to the top of their local scope.<br>
@@ -66,7 +66,7 @@ person.shakeHand( )
  // person
 ```
 
-3. in a `strict` function, it is undefined
+3. in `strict` mode, `this` is undefined
 ```
 'use strict';
 function method( ) { return this; }
@@ -88,31 +88,27 @@ $("div#firstElement").click(function( ) {
 .call( objectA )
 // Object A
 ```
-```
-objectA.testContext.call( objectB )
-// Object B
-```
+
 `apply(newObject, [param1, ..., paramX])`
 * takes array of arguments
 ```
 .apply( objectB )
 // Object B
 ```
-```
-objectA.testContext.apply( window )
-// window (global)
-```
+
 6. in arrow functions, `this` retains the value of its enclosing lexical context. in other words, it permanently binds to the `this` of its enclosing function because the arrow function does not have its own `this`.
 
 ```
-function person( ){
-  this.name = "Homer";
+function Person( ){
+  this.age = 5;
 
-  setName( ( ) => {
-    this.name = "Bart";
-  } );
+  setInterval(( ) => {
+    this.age++; 
+  }, 1000);
 }
-// this in the arrow function refers to person
+
+var p = new Person();
+// this in the arrow function refers to the Person Object
 ```
 
 <br>
