@@ -11,7 +11,7 @@ review of hoisting, context, and closures.<br>
 ***what is hoisting?*** 
 <br>
 hoisting is a verb that means to "raise or haul up."<br>
-when JavaScript compiles your code, all declarations (var, let, const, function, function*, class) are added to memory, allowing some declarations such as `var` to be accessible regardless of where the declaration is made.
+when JavaScript compiles your code, all declarations (`var`, `let`, `const`, `function`, `function*`, `class`) are added to memory, allowing some declarations such as `var` to be accessible regardless of where the declaration is made.
 <br><br>
 when using `var`:<br>
 if declared inside a function, it is hoisted (raised or hauled up) to the top of their local scope.<br>
