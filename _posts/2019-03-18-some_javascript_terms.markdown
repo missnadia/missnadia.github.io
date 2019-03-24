@@ -88,14 +88,12 @@ $("div#firstElement").click(function( ) {
 .call( objectA )
 // Object A
 ```
-
 `apply(newObject, [param1, ..., paramX])`
 * takes array of arguments
 ```
 .apply( objectB )
 // Object B
 ```
-
 6. in arrow functions, `this` retains the value of its enclosing lexical context. in other words, it permanently binds to the `this` of its enclosing function because the arrow function does not have its own `this`.
 
 ```
