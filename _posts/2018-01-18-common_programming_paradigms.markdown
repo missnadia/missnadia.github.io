@@ -5,7 +5,7 @@ date:       2018-01-18 16:16:59 -0500
 permalink:  common_programming_paradigms
 ---
 
-common programming paradigms
+getting to know OOP.
 
 every programming language is characterized by one or more programming paradigm. a programming paradigm is simply a way to classify a programming language based on its functionality and characteristics.
 
