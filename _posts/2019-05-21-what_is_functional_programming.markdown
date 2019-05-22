@@ -8,7 +8,7 @@ permalink:  what_is_functional_programming
 
 getting to know functional programming.
 <br><br>
-**definitions:**
+**definitions:**<br>
 *side-effects:*
 * global program state along with a function's arguments can affect a function's resulting value
 <br><br>
