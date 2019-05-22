@@ -8,6 +8,10 @@ permalink:  what_is_functional_programming
 
 getting to know functional programming.
 <br><br>
+functional programming (FP) is a declarative programming paradigm that:
+* can compose pure functions
+* avoids shared state, mutable data, and side-effects<br><br>
+<br>
 **definitions:**
 
 * *side-effects* - global program state along with a function's arguments can affect a function's resulting value
@@ -17,10 +21,7 @@ getting to know functional programming.
 * *expressions* - produces a value; e.g. identifiers, literals, operators
 * *statements* - performs an action (e.g. loops, `if/else` statements, `switch`, `throw`)
 <br><br><br>
-functional programming (FP) is a declarative programming paradigm that:
-* can compose pure functions
-* avoids shared state, mutable data, and side-effects<br><br>
-* 
+
 **FP vs. OOP**<br>
 
 | functional programming | object-oriented programming |
