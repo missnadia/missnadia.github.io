@@ -15,7 +15,7 @@ in JavaScript, you can declare variables by using one of the following keywords:
 * 3. `const`
 
 1. `var`
-* function scoped - only available inside the created function. if not defined in function, the scope is global
+* function scoped - only available inside the created function. if not defined in function, the scope is global.
 
 2. `let`
 * value can be re-assigned
@@ -23,6 +23,7 @@ in JavaScript, you can declare variables by using one of the following keywords:
 
 3. `const`
 * the value of const cannot be re-assigned because it creates a read-only reference to a value
+* note that `const` does not create immutable objects -- the object the binding refers to is immutable, however the properties of the object are mutable (can be changed)
 * block scoped
 
 
