@@ -11,9 +11,14 @@ getting to know functional programming.
 **definitions:**<br>
 *side-effects:*
 * global program state along with a function's arguments can affect a function's resulting value
-<br><br>
+<br>
 *referential transparency:*
 * an expression evaluates to the same value without changing the program's behavior
+<br>
+*expressions*
+* produces a value; e.g. identifiers, literals, operators
+*statements*
+* performs an action (e.g. loops, `if/else` statements, `switch`, `throw`
 <br><br><br>
 functional programming (FP) is a declarative programming paradigm that:
 * can compose pure functions
@@ -23,7 +28,7 @@ functional programming (FP) is a declarative programming paradigm that:
 | -------- | -------- |
 | declarative paradigm | imperative paradigm |
 | "what to solve" | "how to solve" |
-| uses expressions (produces a value; e.g. identifiers, literals, operators)  | uses statements (performs an action (e.g. loops, `if/else` statements, `switch`, `throw`) |
+| uses expressions | uses statements |
 | recursion | iteration |
 | no side-effects | can have side-effects  |
 | referential transparency | referentially opague (lacks referential transparency) |
