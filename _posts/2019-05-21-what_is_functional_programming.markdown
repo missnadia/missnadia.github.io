@@ -23,13 +23,12 @@ getting to know functional programming.
 functional programming (FP) is a declarative programming paradigm that:
 * can compose pure functions
 * avoids shared state, mutable data, and side-effects
-
 | functional programming | object-oriented programming |<br>
 | --------------------------- | ---------------------------------- |<br>
 |    declarative paradigm    |          imperative paradigm          |<br>
 | "what to solve"        | "how to solve" |<br>
 | uses expressions | uses statements |<br>
-| recursion | iteration |
+| recursion | iteration |<br>
 | no side-effects | can have side-effects  |
 | referential transparency | referentially opague (lacks referential transparency) |
 | data and behavior kept separate | data and behavior kept in single location (known as "objects") |
