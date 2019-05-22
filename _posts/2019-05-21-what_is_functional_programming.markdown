@@ -61,18 +61,18 @@ add(10, 12);
 ```
 however, note that the order of the composition will change the output:
 `f(g(x)) != g(f(x))`
-<br><br>
-3. *recursion*
+<br>
+3. *recursion*<br>
 there are no "for" or "while" loops. iteration is implemented via recursion.
 recursion does not require a pre-determined number of times to execute a block of code. instead it divides the problem into smaller problems and then reverses and combines the smaller pieces. for instance, merge sort is a sorting algorithm that recursively splits a list into sublists and then merges the sublists to produce a complete sorted list.
 ![](https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif)
-4. referential transparency
+4. *referential transparency*
 
-5. immutability
+5. *immutability*<br>
 an immutable variable cannot be modified after it is initialized. it helps maintain state throughout runtime of a program. instead, new variables are defined to store a new value.
 
-6. function composition
-function composition is the process of combining two or more functions to produce a new function. it is used to abstract simple functions to build more complicated functions to help refactor code into short, clean, and functional code.<br><br>
+6. *function composition*<br>
+function composition is the process of combining two or more functions to produce a new function. it is used to abstract simple functions to build more complicated functions to help refactor code into short, clean, and functional code.<br>
 
 **some FP facts:**
 * origins in lambda calculus
