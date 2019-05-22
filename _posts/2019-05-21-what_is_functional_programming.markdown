@@ -66,9 +66,7 @@ however, note that the order of the composition will change the output:
 3. *recursion*
 there are no "for" or "while" loops. iteration is implemented via recursion.
 recursion does not require a pre-determined number of times to execute a block of code. instead it divides the problem into smaller problems and then reverses and combines the smaller pieces. for instance, merge sort is a sorting algorithm that recursively splits a list into sublists and then merges the sublists to produce a complete sorted list.
-
 ![](https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif)
-
 4. referential transparency
 
 5. immutability
