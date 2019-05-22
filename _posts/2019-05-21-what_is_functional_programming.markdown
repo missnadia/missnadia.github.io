@@ -9,6 +9,7 @@ permalink:  what_is_functional_programming
 getting to know functional programming.
 <br><br>
 **definitions:**
+
 * *side-effects* - global program state along with a function's arguments can affect a function's resulting value
 <br>
 * *referential transparency* - an expression evaluates to the same value without changing the program's behavior
@@ -19,7 +20,9 @@ getting to know functional programming.
 functional programming (FP) is a declarative programming paradigm that:
 * can compose pure functions
 * avoids shared state, mutable data, and side-effects<br><br>
+* 
 **FP vs. OOP**<br>
+
 | functional programming | object-oriented programming |
 | --------------------------- | ---------------------------------- |
 |    declarative paradigm    |          imperative paradigm          |
@@ -42,6 +45,7 @@ first-class functions are treated as a first-class variable, in other words, fun
 - returned from functions
 - stored in data structures
 in FP, higher order functions allow reusability on various data types rather than only having the ability to operate on a specific data type that it is designed to operate on.<br>
+
 2) **pure functions/function purity**<br>
 pure functions are functions that:
 - always produce the same output for the same arguments and
@@ -56,6 +60,7 @@ add(10, 12);
 ```
 however, note that the order of the composition will change the output:
 `f(g(x)) != g(f(x))`<br>
+
 3) **recursion**<br>
 there are no "for" or "while" loops. iteration is implemented via recursion.
 recursion does not require a pre-determined number of times to execute a block of code. instead it divides the problem into smaller problems and then reverses and combines the smaller pieces. for instance, merge sort is a sorting algorithm that recursively splits a list into sublists and then merges the sublists to produce a complete sorted list.
