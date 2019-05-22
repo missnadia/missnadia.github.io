@@ -8,7 +8,7 @@ permalink:  what_is_functional_programming
 
 getting to know functional programming.
 <br><br>
-## definitions:<br>
+# definitions:<br>
 * *side-effects* - global program state along with a function's arguments can affect a function's resulting value
 <br>
 * *referential transparency* - an expression evaluates to the same value without changing the program's behavior
@@ -19,7 +19,7 @@ getting to know functional programming.
 functional programming (FP) is a declarative programming paradigm that:
 * can compose pure functions
 * avoids shared state, mutable data, and side-effects
-## FP vs. OOP
+# FP vs. OOP
 | functional programming | object-oriented programming |
 | --------------------------- | ---------------------------------- |
 |    declarative paradigm    |          imperative paradigm          |
@@ -31,7 +31,7 @@ functional programming (FP) is a declarative programming paradigm that:
 | data and behavior kept separate | data and behavior kept in single location (known as "objects") |
 | function composition | imperative control flow |
 <br><br>
-## concepts and paradigms specific to functional programming:
+# concepts and paradigms specific to functional programming:
 1. **functions are first-class and can be higher order**<br>
 higher order functions are functions that operate on other functions. they can either:
 * can take other functions as arguments and/or
@@ -71,12 +71,12 @@ an immutable variable cannot be modified after it is initialized. it helps maint
 6. **function composition**<br>
 function composition is the process of combining two or more functions to produce a new function. it is used to abstract simple functions to build more complicated functions to help refactor code into short, clean, and functional code.<br>
 
-## some FP facts:
+# some FP facts:
 * origins in lambda calculus
 * one of the first languages supporting FP was Lisp (1958). it was developed by John McCarthy at MIT for the IBM 700/7000 series scientific computers
 * ES5 adds several common functional utilities to JavaScript
 
-## some functional programming languages:
+# some functional programming languages:
 * Lisp
 * Clojure (dialect of Lisp)
 * Scheme (dialect of Lisp)
