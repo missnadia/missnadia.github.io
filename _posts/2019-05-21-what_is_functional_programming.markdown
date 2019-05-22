@@ -62,6 +62,7 @@ add(12, 10);
 add(10, 12); 
 // 22
 ```
+
 however, note that the order of the composition will change the output:
 `f(g(x)) != g(f(x))`
 
