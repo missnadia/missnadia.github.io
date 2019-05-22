@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "what is functional programming?"
-date:       2019-05-22 03:07:54 +0000
+date:       2019-05-21 23:07:55 -0400
 permalink:  what_is_functional_programming
 ---
 
@@ -17,7 +17,7 @@ getting to know functional programming.
 <br><br><br>
 functional programming (FP) is a declarative programming paradigm that:
 * can compose pure functions
-* avoids shared state, mutable data, and side-effects<br><br>
+* avoids shared state, mutable data, and side-effects
 
 | functional programming | object-oriented programming |
 | -------- | -------- |
