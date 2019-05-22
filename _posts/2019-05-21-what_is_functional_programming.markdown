@@ -25,9 +25,9 @@ functional programming (FP) is a declarative programming paradigm that:
 * avoids shared state, mutable data, and side-effects
 
 | functional programming | object-oriented programming |<br>
-| -------- | -------- |<br>
-| declarative paradigm | imperative paradigm |<br>
-| "what to solve" | "how to solve" |<br>
+| --------------------------- | ---------------------------------- |<br>
+|    declarative paradigm    |          imperative paradigm          |<br>
+| "what to solve"        | "how to solve" |<br>
 | uses expressions | uses statements |<br>
 | recursion | iteration |
 | no side-effects | can have side-effects  |
@@ -60,7 +60,6 @@ add(12, 10);
 add(10, 12); 
 // 22
 ```
-
 however, note that the order of the composition will change the output:
 `f(g(x)) != g(f(x))`
 <br><br>
