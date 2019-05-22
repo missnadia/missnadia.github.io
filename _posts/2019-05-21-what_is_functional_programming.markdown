@@ -36,7 +36,7 @@ functional programming (FP) is a declarative programming paradigm that:
 | function composition | imperative control flow |
 <br><br>
 **concepts and paradigms specific to functional programming:**
-1. *functions are first-class and can be higher order*
+1. *functions are first-class and can be higher order*<br>
 higher order functions are functions that operate on other functions. they can either:
 * can take other functions as arguments and/or
 * return a function
@@ -48,24 +48,22 @@ first-class functions are treated as a first-class variable, in other words, fun
 * stored in data structures
 in FP, higher order functions allow reusability on various data types rather than only having the ability to operate on a specific data type that it is designed to operate on.
 <br><br>
-2. *pure functions/function purity*
+2. *pure functions/function purity*<br>
 pure functions are functions that:
 * always produce the same output for the same arguments and
 * has no side-effects
 function calls are not dependent on the timing and the order they are called:
 ```
 const add = (x, y) => x + y;
-
 add(12, 10); 
 // 22
-
 add(10, 12); 
 // 22
 ```
 
 however, note that the order of the composition will change the output:
 `f(g(x)) != g(f(x))`
-
+<br><br>
 3. *recursion*
 there are no "for" or "while" loops. iteration is implemented via recursion.
 recursion does not require a pre-determined number of times to execute a block of code. instead it divides the problem into smaller problems and then reverses and combines the smaller pieces. for instance, merge sort is a sorting algorithm that recursively splits a list into sublists and then merges the sublists to produce a complete sorted list.
