@@ -9,13 +9,13 @@ permalink:  what_is_functional_programming
 getting to know functional programming.
 <br><br>
 **definitions:**<br>
-*side-effects:*
+* *side-effects:*
 * global program state along with a function's arguments can affect a function's resulting value
 <br>
-*referential transparency:*
+* *referential transparency:*
 * an expression evaluates to the same value without changing the program's behavior
 <br>
-*expressions*
+* *expressions*
 * produces a value; e.g. identifiers, literals, operators
 *statements*
 * performs an action (e.g. loops, `if/else` statements, `switch`, `throw`
