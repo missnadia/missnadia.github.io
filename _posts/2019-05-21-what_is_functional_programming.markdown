@@ -45,7 +45,7 @@ first-class functions are treated as a first-class variable, in other words, fun
 - passed to functions as a parameter
 - returned from functions
 - stored in data structures<br>
-in FP, higher order functions allow reusability on various data types rather than only having the ability to operate on a specific data type that it is designed to operate on.<br>
+in FP, higher order functions allow reusability on various data types rather than only having the ability to operate on a specific data type that it is designed to operate on.<br><br>
 
 2. **pure functions/function purity**<br>
 pure functions are functions that:
