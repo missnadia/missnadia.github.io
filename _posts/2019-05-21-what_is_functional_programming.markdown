@@ -39,7 +39,7 @@ functional programming (FP) is a declarative programming paradigm that:
 1. **functions are first-class and can be higher order**<br>
 higher order functions are functions that operate on other functions. they can either:
 - can take other functions as arguments and/or
-- return a function<br><br>
+- return a function<br>
 they allow abstraction of actions and not just values.<br>
 first-class functions are treated as a first-class variable, in other words, functions are treated as data in that it can be:
 - passed to functions as a parameter
