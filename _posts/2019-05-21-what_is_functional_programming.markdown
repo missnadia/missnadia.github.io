@@ -80,7 +80,7 @@ function composition is the process of combining two or more functions to produc
 * one of the first languages supporting FP was Lisp (1958). it was developed by John McCarthy at MIT for the IBM 700/7000 series scientific computers
 * ES5 adds several common functional utilities to JavaScript
 
-**some functional programming languages:**
+**some FP languages:**
 * Lisp
 * Clojure (dialect of Lisp)
 * Scheme (dialect of Lisp)
